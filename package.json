@@ -1,0 +1,23 @@
+{
+  "name": "edekacrawler",
+  "version": "1.0.0",
+  "description": "Gets info on edeka weekly offers (throughAPI right now)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristophKreutzer23/EdekaCrawler.git"
+  },
+  "author": "Christoph Kreutzer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChristophKreutzer23/EdekaCrawler/issues"
+  },
+  "homepage": "https://github.com/ChristophKreutzer23/EdekaCrawler#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "config": "^3.3.1"
+  }
+}
