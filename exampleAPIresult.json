@@ -1,0 +1,62 @@
+[
+  {
+    "angebotid": 2651672,
+    "externeid": null,
+    "titel": "Gut & Günstig Gurken",
+    "preis": 0.39,
+    "beschreibung": "aus Spanien oder den Niederlanden, Klasse I, St&uuml;ck",
+    "punkte_deutschlandcard": "0",
+    "zusatztext": "Abgabe der Angebote nur in haushaltsüblichen Mengen, solange der Vorrat reicht. Nur in teilnehmenden Märkten. Irrtum vorbehalten. Alle Preise sind in Euro inkl. Mwst angegeben. Artikelangabe ohne Deko. EDEKA Handelsgesellschaft Südwest mbH, Edekastraße 1, 77656 Offenburg",
+    "bild_web90": "https://offer-images.api.edeka/53c69cb0-f23e-46c3-ba6d-b17096dfec52_028_iq_1.jpg",
+    "bild_web130": "https://offer-images.api.edeka/2634bcd1-4151-4d0f-8ae2-cf5094dfb52b_028_iq_1.jpg",
+    "bild_app": "https://offer-images.api.edeka/582ea3c5-cc5c-41bb-8178-baa24816b01b_028_iq_1.jpg",
+    "warengruppe": "Obst & Gemüse",
+    "warengruppeid": 4,
+    "kriterien": [
+      {
+        "id": 4,
+        "name": "Superknüller",
+        "schieneTyp": "E"
+      }
+    ],
+    "sonderkennzeichen": [
+      {
+        "bild": "https://offer-images.api.edeka/8e8f48f9-2c40-4332-83ed-2581fdbc1e7f_gut___guenstig_rgb2.jpg"
+      }
+    ],
+    "zutaten": null,
+    "nachlass": null,
+    "genussplus": null,
+    "basicPrice": null,
+    "national": false,
+    "gueltig_bis": 1588370400000
+  },
+  {
+    "angebotid": 2651660,
+    "externeid": null,
+    "titel": "Kitekat Katzennahrung",
+    "preis": 0.39,
+    "beschreibung": "verschiedene Sorten, 400-g-Dose, (1 kg = € 0,98)",
+    "punkte_deutschlandcard": "0",
+    "zusatztext": "Abgabe der Angebote nur in haushaltsüblichen Mengen, solange der Vorrat reicht. Nur in teilnehmenden Märkten. Irrtum vorbehalten. Alle Preise sind in Euro inkl. Mwst angegeben. Artikelangabe ohne Deko. EDEKA Handelsgesellschaft Südwest mbH, Edekastraße 1, 77656 Offenburg",
+    "bild_web90": "https://offer-images.api.edeka/bc392fe2-3a2a-4b54-91ed-0fa2fd300c05_4008429039546.jpg",
+    "bild_web130": "https://offer-images.api.edeka/83ada178-bb78-4c63-9171-bb1d82c301db_4008429039546.jpg",
+    "bild_app": "https://offer-images.api.edeka/677be008-ac5d-4f38-a526-908631fed722_4008429039546.jpg",
+    "warengruppe": "Tiernahrung",
+    "warengruppeid": 12,
+    "kriterien": [
+      {
+        "id": 4,
+        "name": "Superknüller",
+        "schieneTyp": "E"
+      }
+    ],
+    "sonderkennzeichen": null,
+    "zutaten": null,
+    "nachlass": null,
+    "genussplus": null,
+    "basicPrice": "1 kg = € 0,98",
+    "national": false,
+    "gueltig_bis": 1588370400000
+  }
+]
