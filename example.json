@@ -1,6 +1,7 @@
 {
   "name": "Gut & Günstig Gurken",
   "price": 39,
+  "marketId": 96229,
   "valid": {
     "from": 1587808800,
     "to": 1588370400
