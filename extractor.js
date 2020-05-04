@@ -1,4 +1,8 @@
 const moment = require('moment')
+const Entities = require('html-entities').AllHtmlEntities
+const entities = new Entities()
+
+const { getQuantityFromDescription } = require('./quantityExtractor')
 
 async function getBasePrice(offer) {
   if (!offer.basicPrice) {
@@ -22,17 +26,20 @@ async function getBasePrice(offer) {
 
 async function extractInfoFromOffer(offer, marketId) {
   const validUntil = moment(offer.gueltig_bis)
+  const description = entities.decode(offer.beschreibung)
   return {
     name: offer.titel,
-    price: offer.preis * 100,
+    price: (offer.preis * 100).toFixed(0),
     marketId: 'Edeka' + marketId,
     valid: {
       from: validUntil.subtract(7, 'days').unix(),
       to: validUntil.unix(),
     },
     basePrice: await getBasePrice(offer),
-    description: offer.beschreibung,
-    quantity: getQuantity(offer),
+    description,
+    quantity: getQuantityFromDescription(
+      description.replace(offer.basicPrice, '')
+    ),
     category: offer.warengruppe,
     image: offer.bild_web130,
   }

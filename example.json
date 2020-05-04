@@ -11,10 +11,13 @@
     "unit": "piece"
   },
   "description": "aus Spanien oder den Niederlanden, Klasse I, St&uuml;ck",
-  "quantity": {
-    "amount": 1,
-    "unit": "piece"
-  },
+  "quantity": [
+    {
+      "totalAmount": 1,
+      "amount": 1,
+      "unit": "piece"
+    }
+  ],
   "category": "Molkerei & Käse",
   "image": "https://offer-images.api.edeka/7beac3d6-64b4-4236-af35-a8ea8eaf3ab9_RS6277_4002334113032_Bauer_DGB_250g_SortimentRot_Kirsche_RGB_high.jpg"
 }

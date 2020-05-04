@@ -30,6 +30,8 @@ async function main() {
   const results = await getOffers(ids)
 
   const extracted = await extractor.extractInfo(results)
+
+  // TODO: send to kafka
 }
 
 main()
